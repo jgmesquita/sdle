@@ -138,7 +138,7 @@ def main():
     if not sock:
         raise Exception("Could not connect to any proxy!")
 
-    print(f"✅ Server {server_number} connected and ready to handle requests.")
+    print(f"Server {server_number} connected and ready to handle requests.")
 
     last_ping = 0
     PING_INTERVAL = 3
